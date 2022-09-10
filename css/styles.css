@@ -1,5 +1,11 @@
+* {
+    
+}
+
 body {
     background-color: #f2d28835;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 hr {
@@ -8,6 +14,12 @@ hr {
     width: 5%;
     
 }
+
+#index-page {
+    align-items: center;
+    /* justify-content: center; */
+}
+
 
 h1 {
     color: #a7d2cbd8;
